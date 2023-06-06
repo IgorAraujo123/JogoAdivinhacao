@@ -17,9 +17,7 @@ public class GameStart {
 		Thread thread = new Thread();
 				
 		def.titulo();
-		
-		System.out.println(numeroSorteado);
-		
+				
 		thread.start();
 		
 		while(true) {
